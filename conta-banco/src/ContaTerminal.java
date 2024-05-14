@@ -5,7 +5,7 @@ import java.util.Scanner;
  * A Classe tem como objetivo atender o desafio proposto para DIO trilha java Basico
  * sobre sintsxe Java, proposto por Gleyson Sampaio
  * <p>
- * <b>Nota:</b> SINTAXE - DESAFIO
+ * <b>Nota:</b> DESAFIO SINTAXE JAVA BASICO
  * 
  * @author Edcarlos Almeida
  * @version 1.0
@@ -22,7 +22,7 @@ public class ContaTerminal {
         
         Scanner scanner =  new Scanner(System.in);
 
-        System.out.println("Olá Seja bem vindo ao banco JAVA INVESTIMENTOS!");
+        System.out.println("Olá Seja bem vindo ao banco JAVA INVESTIMENTOS!\n");
 
         System.out.println("Por favor, digite o nome do cliente!");
         String nomeCliente = scanner.next();
